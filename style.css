@@ -170,7 +170,7 @@ section {
 }
 .about,
 .skills,
-.projects,
+.certificates,
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
@@ -408,36 +408,36 @@ section .title::after {
 }
 
 /* Project section styling */
-.projects .title::after {
+.certificates .title::after {
   content: "check my work";
 }
-.projects .carousel .card {
+.certificates .carousel .card {
   background: #222;
   border-radius: 10px;
   padding: 25px 20px;
   text-align: center;
   transition: all 0.3s ease;
 }
-.projects .carousel .card:hover {
+.certificates .carousel .card:hover {
   background: rgb(48, 48, 48);
 }
-.projects .carousel .card .box {
+.certificates .carousel .card .box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
 }
-.projects .carousel .card:hover .box {
+.certificates .carousel .card:hover .box {
   transform: scale(1.02);
 }
 
-.projects .carousel .card p {
+.certificates .carousel .card p {
   font-size: 16px;
   padding-top: 10px;
   color: #fff;
 }
-.projects .carousel .card img {
+.certificates .carousel .card img {
   height: 250px;
   width: 280px;
   object-fit: fill;
@@ -445,7 +445,7 @@ section .title::after {
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
-.projects .carousel .card:hover img {
+.certificates .carousel .card:hover img {
   border-color: #fff;
 }
 .owl-dots {
@@ -713,11 +713,11 @@ footer span a:hover {
   .home .home-content .text-3 {
     font-size: 27px;
   }
-  .projects .carousel .card {
+  .certificates .carousel .card {
     margin-top: 10px;
     padding: 10px 15px;
   }
-  .projects .carousel .card img {
+  .certificates .carousel .card img {
     height: 180px;
     width: 200px;
   }
